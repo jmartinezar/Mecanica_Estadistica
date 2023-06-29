@@ -1,0 +1,9 @@
+#include <iostream>
+#include <cmath>
+#include <algoritm>
+#include <random>
+
+double Probabilidad(double x_i, double x_i_uno)
+{
+  
+}

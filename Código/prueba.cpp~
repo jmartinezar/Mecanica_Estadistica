@@ -1,0 +1,18 @@
+#include <algorithm>
+#include <iostream>
+#include <cmath>
+#include <random>
+#include <vector>
+#include "CuerpoGrano.h"
+#include "FuncionesSMProyecto.h"
+#include "constantesSMProyecto.h"
+#include <fstream>
+
+
+int main(void)
+{
+  double z = 1.0;
+  std::cout << RK4_paso(dt, z, dt, DeltaS) << "\n";
+
+  return 0;
+}
